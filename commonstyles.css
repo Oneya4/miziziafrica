@@ -1,0 +1,140 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: cover;
+}
+/*body*/
+body{
+    color: white;
+    background: black;
+    font-family:"Lato",san-serif;
+    padding-left: 40px;
+}
+/*start of navbar*/
+.navbar{
+    background: white;
+    position: sticky;
+    top:0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: black;
+    z-index: 1;
+    opacity: 0.8;
+}
+.navbar-center{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+       
+}
+
+.nav-icon{
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+#logo{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  opacity: 5;
+}
+/*end of navbar*/
+
+/*side menu*/
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -85px; /* Position them outside of the screen */
+  transition: 0.8s; /* Add transition on hover */
+  padding: 10px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#index {
+  top: 60px;
+  background-color: #555;
+}
+
+#about {
+  top: 110px;
+  background-color: #555; 
+}
+
+#projects {
+  top: 160px;
+  background-color: #555; 
+}
+
+#events {
+  top: 210px;
+  background-color: #555; 
+}
+
+#awards {
+  top: 260px;
+  background-color: #555;
+}
+
+#contact {
+  top: 310px;
+  background-color: #555;
+}
+/*end of side menu*/
+
+/*footer*/
+.p{
+	color: white;
+}
+
+footer{
+    background-color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: cover;
+    float: bottom;
+}
+
+
+ul li{
+    display: inline-block;
+    background-color: black;
+    padding: 4px 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+ul li:hover{
+    background-color: royalblue;
+    font-size: 30px;
+}
+
+ul li a{
+    color: #fff;
+}
+/*end of footer*/
