@@ -1,11 +1,6 @@
 
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700");
 
-:root{
-    --mainSpacing: 0.1 rem;
-    --mainTransition: all 0.3s linear;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +11,7 @@ body{
     color: white;
     background: black;
     font-family: "Lato", san-serif;
+    size: 100%;
 }
 /*start of navbar*/
 .navbar{
@@ -70,7 +66,7 @@ body{
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
-    background-size:900px;
+    background-size: 66%;
 }
 
 #mySidenav a {
