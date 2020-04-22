@@ -94,12 +94,12 @@ body{
 @media only screen and (max-device-width: 650px) {
   #mySidenav a{
     left: 0;
-    width: 45px;
+    width: 40px;
     font-size: 12px;
   }
     #index {top: 60px;}
 
-    #about {top: 61px;}
+    #about {top: 65px;}
 
     #projects {top: 70px;}
 
