@@ -94,20 +94,20 @@ body{
 @media only screen and (max-device-width: 650px) {
   #mySidenav a{
     display: flex;
-    left: 0px;
+    left: 0;
     font-size: 10px;
   }
     #index {top: 60px;}
 
-    #about {top: 70px;}
+    #about {top: 65px;}
 
-    #projects {top: 80px;}
+    #projects {top: 70px;}
 
-    #events {top: 90px;}
+    #events {top: 75px;}
 
-    #awards {top: 100px;}
+    #awards {top: 80px;}
 
-    #contact {top: 110px;}
+    #contact {top: 85px;}
 }
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
