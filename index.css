@@ -95,28 +95,19 @@ body{
   #mySidenav a{
     display: flex;
     left: -50px;
-    width: 50px;
     font-size: 10px;
   }
-     #about {
-      top: 70px;
-    }
+    #index {top: 60px;}
 
-    #projects {
-      top: 80px;
-    }
+    #about {top: 70px;}
 
-    #events {
-      top: 90px;
-    }
+    #projects {top: 80px;}
 
-    #awards {
-      top: 100px;
-    }
+    #events {top: 90px;}
 
-    #contact {
-      top: 110px;
-    }
+    #awards {top: 100px;}
+
+    #contact {top: 110px;}
 }
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
@@ -175,7 +166,6 @@ body{
 @media only screen and (max-device-width: 650px) {
    .img1, .img2, .img3, .img4{
     background-size: 100%;
-    background-attachment: scroll;
   }
 }
 .img1 {
