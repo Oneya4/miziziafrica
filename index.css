@@ -95,6 +95,7 @@ body{
   #mySidenav a{
     display: flex;
     left: 0;
+    width: 50px;
     font-size: 10px;
   }
     #index {top: 60px;}
