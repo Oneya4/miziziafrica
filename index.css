@@ -137,15 +137,15 @@ body{
 @media only screen and (max-device-width: 650px) {
     #index {top: 60px;}
 
-    #about {top: 100px;}
+    #about {top: 105px;}
 
-    #projects {top: 140px;}
+    #projects {top: 145px;}
 
-    #events {top: 180px;}
+    #events {top: 185px;}
 
-    #awards {top: 220px;}
+    #awards {top: 225px;}
 
-    #contact {top: 260px;}
+    #contact {top: 265px;}
  }
 .content{
     width: 95%;
