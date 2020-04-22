@@ -94,7 +94,7 @@ body{
 @media only screen and (max-device-width: 650px) {
   #mySidenav a{
     display: flex;
-    left: -50px;
+    left: 0px;
     font-size: 10px;
   }
     #index {top: 60px;}
