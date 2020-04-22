@@ -83,7 +83,7 @@ body{
   position: absolute; /* Position them relative to the browser window */
   left: -85px; /* Position them outside of the screen */
   transition: 0.8s; /* Add transition on hover */
-  padding: 10px; /* 15px padding */
+  padding: 10px; /* 10px padding */
   width: 100px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
@@ -93,10 +93,10 @@ body{
 
 @media only screen and (max-device-width: 650px) {
   #mySidenav a{
-    display: flex;
     left: 0;
-    width: 50px;
-    font-size: 10px;
+    width: 45px;
+    font-size: 12px;
+    padding: 5px;
   }
     #index {top: 60px;}
 
@@ -110,11 +110,12 @@ body{
 
     #contact {top: 85px;}
 }
+
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-/* The about link: 20px from the top with a green background */
+/* The home link: 60px from top */
 #index {
   top: 60px;
   background-color: #555;
