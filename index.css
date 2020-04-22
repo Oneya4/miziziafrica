@@ -12,6 +12,12 @@ body{
     background: black;
     font-family: "Lato", san-serif;
 }
+
+@media only screen and (max-device-width: 1366px) {
+  body {
+    size: 100%;
+  }
+}
 /*start of navbar*/
 .navbar{
     background: white;
@@ -68,6 +74,11 @@ body{
     background-size: 900px;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .hero {
+    background-size: 75%;
+  }
+}
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: -85px; /* Position them outside of the screen */
@@ -116,7 +127,7 @@ body{
 }
 
 .content{
-    width: 100%;
+    width: 95%;
     max-width: 1100px;
     margin: 0 auto;
     align-items: center;
@@ -132,6 +143,12 @@ body{
   background-size: 1100px;
   opacity: 0.8;
 
+}
+
+@media only screen and (max-device-width: 1366px) {
+   .img1, .img2, .img3, .img4{
+    background-size: 95%;
+  }
 }
 .img1 {
   background-image: url("./media/img1.jpg");
