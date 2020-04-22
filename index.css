@@ -94,28 +94,28 @@ body{
 @media only screen and (max-device-width: 650px) {
   #mySidenav a{
     display: flex;
-    left: 50px;
+    left: -50px;
     width: 50px;
     font-size: 10px;
   }
      #about {
-      top: 90px;
+      top: 70px;
     }
 
     #projects {
-      top: 120px;
+      top: 80px;
     }
 
     #events {
-      top: 150px;
+      top: 90px;
     }
 
     #awards {
-      top: 180px;
+      top: 100px;
     }
 
     #contact {
-      top: 210px;
+      top: 110px;
     }
 }
 #mySidenav a:hover {
