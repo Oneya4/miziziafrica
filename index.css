@@ -13,7 +13,7 @@ body{
     font-family: "Lato", san-serif;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 650px) {
   body {
     size: 95%;
   }
@@ -74,7 +74,7 @@ body{
     background-size: 900px;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 650px) {
   .hero {
     background-size: 85%;
   }
@@ -91,7 +91,7 @@ body{
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 650px) {
   #mySidenav a{
     display: flex;
     left: -30px;
@@ -151,7 +151,7 @@ body{
 
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 650px) {
    .img1, .img2, .img3, .img4{
     background-size: 100%;
   }
