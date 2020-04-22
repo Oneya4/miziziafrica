@@ -139,13 +139,13 @@ body{
 
     #about {top: 110px;}
 
-    #projects {top: 150px;}
+    #projects {top: 160px;}
 
-    #events {top: 190px;}
+    #events {top: 210px;}
 
-    #awards {top: 230px;}
+    #awards {top: 260px;}
 
-    #contact {top: 270px;}
+    #contact {top: 310px;}
  }
 .content{
     width: 95%;
