@@ -17,6 +17,7 @@ body{
 @media only screen and (max-device-width: 650px) {
   body {
     size: 100%;
+    padding-left: 15%;
   }
 }
 
@@ -68,7 +69,7 @@ body{
 
 /*side menu*/
 #mySidenav a {
-  position: absolute; /* Position them relative to the browser window */
+  position: sticky; /* Position them relative to the browser window */
   left: -85px; /* Position them outside of the screen */
   transition: 0.8s; /* Add transition on hover */
   padding: 10px; /* 15px padding */
