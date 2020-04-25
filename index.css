@@ -162,7 +162,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1100px;
-  opacity: 0.8;
 
 }
 
@@ -193,7 +192,6 @@ body{
 
 .glow {
   font-size: 40px;
-  color: white;
   text-align: center;
 }
 
