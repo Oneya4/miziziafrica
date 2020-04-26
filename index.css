@@ -200,6 +200,20 @@ body{
     color: white;
 }
 
+.column {
+  margin-bottom: 16px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
 footer{
     background-color: black;
     padding-top: 13px;
