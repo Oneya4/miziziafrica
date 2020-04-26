@@ -1,6 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700");
 
-
 /*about page*/
 /* Five columns side by side */
 .column {
@@ -13,7 +12,7 @@
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
-    width: 100%;
+    width: 90%;
     display: block;
   }
 }
