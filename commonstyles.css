@@ -156,6 +156,7 @@ footer{
     box-sizing: cover;
     float: bottom;
     width: 100%;
+    size: 100%;
 }
 
 
