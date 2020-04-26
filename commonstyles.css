@@ -139,6 +139,11 @@ body{
  }
 /*end of side menu*/
 
+.content{
+    margin: 0 auto;
+    font-size: 1.1rem;
+       
+}
 /*footer*/
 .p{
 	color: white;
