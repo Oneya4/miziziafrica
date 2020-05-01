@@ -200,18 +200,23 @@ body{
     color: white;
 }
 
-.column {
-  margin-bottom: 16px;
-  padding: 0 15px;
-  cursor: pointer;
+.partners{
+  padding-top: 10px;
+  padding-bottom: 8px;
+
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+.partners ul li{
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.partners ul li:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
 }
 
 footer{
