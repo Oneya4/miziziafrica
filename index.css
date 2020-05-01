@@ -148,7 +148,7 @@ body{
     #contact {top: 260px;}
  }
 .content{
-    width: 100%;
+    size: 100%;
     max-width: 1100px;
     margin: 0 auto;
     align-items: center;
