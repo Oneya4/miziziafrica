@@ -14,8 +14,7 @@ body{
 
 @media only screen and (max-device-width: 650px) {
   body {
-    size: 82%;
-    padding-left: 18%;
+    size: 100%;
   }
 }
 
@@ -142,6 +141,13 @@ body{
     font-size: 1.2rem;
     padding-left: 40px;
        
+}
+
+@media only screen and (max-device-width: 650px) {
+  .content {
+    size: 82%;
+    padding-left: 18%;
+  }
 }
 /*footer*/
 .p{
