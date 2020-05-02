@@ -10,8 +10,6 @@ body{
     color: white;
     background: black;
     font-family: "Lato",san-serif;
-    /*font-size: 1.1rem;*/
-    padding-left: 40px;
 }
 
 @media only screen and (max-device-width: 650px) {
@@ -142,6 +140,7 @@ body{
 .content{
     margin: 0 auto;
     font-size: 1.2rem;
+    padding-left: 40px;
        
 }
 /*footer*/
