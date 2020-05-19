@@ -12,12 +12,6 @@ body{
     font-family: "Lato",san-serif;
 }
 
-@media only screen and (max-device-width: 650px) {
-  body {
-    size: 100%;
-  }
-}
-
 /*start of navbar*/
 .navbar{
     background: white;
@@ -78,14 +72,6 @@ body{
   /*background-attachment: fixed;*/
 }
 
-@media only screen and (max-device-width: 650px) {
-  #mySidenav a{
-    left: 0;
-    width: 40px;
-    font-size: 12px;
-  }
-}
-
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
 }
@@ -121,19 +107,6 @@ body{
   background-color: #555;
 }
 
-@media only screen and (max-device-width: 650px) {
-    #index {top: 60px;}
-
-    #about {top: 100px;}
-
-    #projects {top: 140px;}
-
-    #events {top: 180px;}
-
-    #awards {top: 220px;}
-
-    #contact {top: 260px;}
- }
 /*end of side menu*/
 
 .content{
@@ -143,12 +116,6 @@ body{
        
 }
 
-@media only screen and (max-device-width: 650px) {
-  .content {
-    size: 82%;
-    padding-left: 18%;
-  }
-}
 /*footer*/
 .p{
 	color: white;
@@ -182,3 +149,40 @@ ul li a{
     color: #fff;
 }
 /*end of footer*/
+
+/*media queries*/
+@media only screen and (max-device-width: 650px) {
+  body {
+    size: 100%;
+  }
+
+  .content {
+    size: 83%;
+    padding-left: 17%;
+  }
+
+  #mySidenav a{
+    left: 0;
+    width: 40px;
+    font-size: 12px;
+  }
+
+    #index {top: 60px;}
+
+    #about {top: 100px;}
+
+    #projects {top: 140px;}
+
+    #events {top: 180px;}
+
+    #awards {top: 220px;}
+
+    #contact {top: 260px;}
+
+    .fake-smile{
+      height: 80%;
+      width: 80%;
+    }
+
+}
+
