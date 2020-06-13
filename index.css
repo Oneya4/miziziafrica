@@ -9,18 +9,13 @@
 
 body{
     color: white;
-    background: black;
+    background: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
     font-family: "Lato", san-serif;
 }
 
-@media only screen and (max-device-width: 650px) {
-  body {
-    size: 100%;
-  }
-}
 /*start of navbar*/
 .navbar{
-    background: white;
+    background: #fff;
     position: sticky;
     top:0;
     height: 60px;
@@ -58,26 +53,22 @@ body{
 }
 
 .light-mode {
-  background-color: white;
+  background: #fff;
   color: black;
 }
 /*end of navbar*/
 /*hero*/
 .hero{
-    min-height: calc(100vh - 60px);
-    background: url(./media/index.jpeg) center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
-    background-size: 900px;
+  width: 100%;
+  height: 100vh;
+  background: url(./media/index.jpeg) center no-repeat;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: 58%;
+  background-color: #fff;
 }
 
-@media only screen and (max-device-width: 650px) {
-  .hero {
-    background-size: 100%;
-  }
-}
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: -85px; /* Position them outside of the screen */
@@ -89,14 +80,6 @@ body{
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
   background-attachment: fixed;
-}
-
-@media only screen and (max-device-width: 650px) {
-  #mySidenav a{
-    left: 0;
-    width: 40px;
-    font-size: 12px;
-  }
 }
 
 #mySidenav a:hover {
@@ -134,8 +117,183 @@ body{
   background-color: #555;
 }
 
-@media only screen and (max-device-width: 650px) {
-    #index {top: 60px;}
+.description{
+  /*padding: 1.5rem 0;*/
+  position: relative;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.group-description{
+  font-size: 1.2rem;
+  display: flex;
+  padding: 1rem;
+} 
+
+.group-description>div{
+  flex: 1;
+  width: 100%;
+}
+
+.description-paragraph{
+  padding: 9rem 0;
+  background-color: #F2AA4CFF;
+  color: #101820FF;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.description-paragraph p{
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.values{
+  width: 100%;
+  height: 100%;
+}
+
+.values h1{
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+
+.values p{
+  text-align: center;
+}
+
+.values-top{
+  background-color: #F9D342;
+  color: #292826;
+  padding: 2rem 0;
+  height: 38vh;
+  border-radius: 20px;
+}
+
+.values-bottom{
+  background-color: #292826;
+  color: #F9D342;
+  padding: 2rem 0;
+  border-radius: 20px;
+  height: 38vh;
+}
+
+.gallery{
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.gallery >div{
+  flex: 1;
+}
+
+.gallery img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.sound-systems{
+  background-color: #F9D342;
+  color: #292826;
+  border-radius: 20px;
+}
+
+.sound-systems p{
+  padding: 1.2rem;
+}
+
+.images{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  background-color: #a3a3a3;
+  border-radius: 20px;
+}
+
+.partner{
+  display: flex;
+  padding: 1.5rem;
+}
+
+.partner > div{
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.partner-description{
+  padding: 1.5rem;
+}
+
+.partner-logo div{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 1rem;
+}
+
+.partner-logo a{
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.mental360logo{
+  width: 73%;
+  background-color: #fff;
+}
+
+footer{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: cover;
+    float: bottom;
+}
+
+
+ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 1px;
+    background: linear-gradient(to right, rgba(0,0,0), #222, #333, #444, #a4a4a4);
+    padding: 2px 2px;
+    border-radius: 3px 3px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+ul li:hover{
+    font-size: 17px;
+    
+}
+
+ul li a{
+    color: #fff;
+}
+
+/*media queries*/
+@media only screen and (max-device-width: 900px) {
+  body {
+    size: 100%;
+  }
+
+  .hero {
+    background-size: 100%;
+  }
+
+  #mySidenav a{
+    left: 0;
+    width: 40px;
+    font-size: 12px;
+  }
+
+  #index {top: 60px;}
 
     #about {top: 100px;}
 
@@ -146,101 +304,43 @@ body{
     #awards {top: 220px;}
 
     #contact {top: 260px;}
- }
-.content{
-    size: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    align-items: center;
-    padding: 10px;
-    font-size: 1.1rem;
-       
-}
 
-.img1, .img2, .img3, .img4 {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1100px;
-
-}
-
-@media only screen and (max-device-width: 650px) {
-   .img1, .img2, .img3, .img4{
-    background-size: 100%;
+  .group-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0 .15rem;
   }
-}
-.img1 {
-  background-image: url("./media/img1.jpg");
-  min-height: 400px;
-}
 
-.img2 {
-  background-image: url("./media/img2.jpg");
-  min-height: 400px;
-}
+  .description-paragraph{
+    padding: .6rem 0;
+  }
 
-.img3 {
-  background-image: url("./media/img3.jpg");
-  min-height: 400px;
-}
+  .values > div{
+    display: flex;
+    flex-direction: column;
+  }
 
-.img4 {
-  background-image: url("./media/img4.jpg");
-  min-height: 400px;
-}
+  .values-top{
+    height: 50%;
+  }
 
-.glow {
-  font-size: 40px;
-  text-align: center;
-}
+  .values-bottom{
+    height: 50%;
+  }
 
-.p{
-    color: white;
-}
+  .gallery{
+    display: flex;
+    flex-direction: column;
+    padding: .15rem;
+  }
 
-.partners{
-  padding-top: 10px;
-  padding-bottom: 8px;
+  .partner{
+    display: flex;
+    flex-direction: column;
+  }
 
-}
-
-.partners ul li{
-    display: inline-block;
-    padding: 6px 7px;
-    background-color: inherit;
-    cursor: pointer;
-    transition: all 0.7s ease;
-}
-
-.partners ul li:hover{
-    background-color: inherit;
-    font-size: 30px;
-}
-
-footer{
-    background-color: black;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    box-sizing: cover;
-    float: bottom;
-}
-
-
-ul li{
-    display: inline-block;
-    background-color: black;
-    padding: 4px 5px;
-    cursor: pointer;
-    transition: all 0.7s ease;
-}
-
-ul li:hover{
-    background-color: royalblue;
-    font-size: 30px;
-}
-
-ul li a{
-    color: #fff;
+  .parnter-logo >div{
+    display: flex;
+    flex-direction: column;
+  }
 }
