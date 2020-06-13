@@ -278,7 +278,7 @@ ul li a{
 }
 
 /*media queries*/
-@media only screen and (max-device-width: 900px) {
+@media screen and (max-width: 1200px) {
   body {
     size: 100%;
   }
@@ -342,5 +342,9 @@ ul li a{
   .parnter-logo >div{
     display: flex;
     flex-direction: column;
+  }
+
+  .mental360logo{
+    width: 100%;
   }
 }
