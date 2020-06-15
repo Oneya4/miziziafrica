@@ -9,7 +9,7 @@
 
 body{
     color: white;
-    background-color: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
+    background: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
     font-family: "Lato", san-serif;
 }
 
@@ -53,7 +53,7 @@ body{
 }
 
 .light-mode {
-  background-color: #fff;
+  background: #fff;
   color: black;
 }
 /*end of navbar*/
@@ -65,7 +65,7 @@ body{
   display: flex;
   align-items: center;
   background-attachment: fixed;
-  background-size: 58%;
+  background-size: 900px;
   background-color: #fff;
 }
 
@@ -278,7 +278,7 @@ ul li a{
 }
 
 /*media queries*/
-@media only screen and (max-device-width: 900px) {
+@media screen and (max-width: 1200px) {
   body {
     size: 100%;
   }
@@ -342,5 +342,9 @@ ul li a{
   .parnter-logo >div{
     display: flex;
     flex-direction: column;
+  }
+
+  .mental360logo{
+    width: 100%;
   }
 }
