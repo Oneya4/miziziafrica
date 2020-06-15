@@ -47,33 +47,36 @@ body{
 }
 #logo{
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, mono space;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
 }
 
 .light-mode {
   background: #fff;
   color: black;
+  opacity: 5;
 }
 /*end of navbar*/
 
 /*side menu*/
 #mySidenav a {
-  position: absolute; 
-  left: -85px; 
-  transition: 0.8s; 
-  padding: 10px; 
-  width: 100px; 
-  text-decoration: none; 
-  font-size: 20px; 
-  color: white; 
-  border-radius: 0 5px 5px 0; 
+  position: absolute; /* Position them relative to the browser window */
+  left: -85px; /* Position them outside of the screen */
+  transition: 0.8s; /* Add transition on hover */
+  padding: 10px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  /*background-attachment: fixed;*/
 }
 
 #mySidenav a:hover {
-  left: 0; 
+  left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
+/* The about link: 20px from the top with a green background */
 #index {
   top: 60px;
   background-color: #555;
@@ -148,7 +151,7 @@ ul li a{
 /*end of footer*/
 
 /*media queries*/
-@media screen and (max-width: 1200px) {
+@media only screen and (max-device-width: 650px) {
   body {
     size: 100%;
   }
@@ -162,7 +165,6 @@ ul li a{
     left: 0;
     width: 40px;
     font-size: 12px;
-    position: fixed;
   }
 
     #index {top: 60px;}

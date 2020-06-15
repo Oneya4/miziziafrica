@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700");
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-device-width: 650px) {
   .container {
     size: 85%;
     padding-left: 15%;
@@ -16,7 +16,7 @@
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 650px) {
   .column {
     width: 90%;
     display: block;
