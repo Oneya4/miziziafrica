@@ -9,7 +9,7 @@
 
 body{
     color: white;
-    background: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
+    background-color: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
     font-family: "Lato", san-serif;
 }
 
@@ -53,7 +53,7 @@ body{
 }
 
 .light-mode {
-  background: #fff;
+  background-color: #fff;
   color: black;
 }
 /*end of navbar*/
