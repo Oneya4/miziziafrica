@@ -47,7 +47,7 @@ body{
 }
 #logo{
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, mono space;
     color: white;
 }
 
@@ -151,8 +151,6 @@ ul li a{
 @media screen and (max-width: 1200px) {
   body {
     size: 100%;
-    color: white;
-    background: linear-gradient(to right, #1c1c1c, rgba(0,0,0), #111, #222);
   }
 
   .content {
