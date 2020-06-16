@@ -140,7 +140,7 @@ body{
   padding: 9rem 0;
   background-color: #F2AA4CFF;
   color: #101820FF;
-  height: 76vh;
+  height: 100%;
   width: 100%;
   border-radius: 20px;
 }
@@ -169,7 +169,7 @@ body{
   background-color: #F9D342;
   color: #292826;
   padding: 2rem 0;
-  height: 38vh;
+  height: 50%;
   border-radius: 20px;
 }
 
@@ -178,7 +178,7 @@ body{
   color: #F9D342;
   padding: 2rem 0;
   border-radius: 20px;
-  height: 38vh;
+  height: 50%;
 }
 
 .gallery{
