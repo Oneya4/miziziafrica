@@ -66,7 +66,7 @@ body{
   display: flex;
   align-items: center;
   background-attachment: fixed;
-  background-size: 800px;
+  background-size: 750px;
   background-color: #fff;
 }
 
@@ -169,7 +169,7 @@ body{
   background-color: #F9D342;
   color: #292826;
   padding: 2rem 0;
-  height: 35vh;
+  height: 36vh;
   border-radius: 20px;
 }
 
@@ -178,7 +178,7 @@ body{
   color: #F9D342;
   padding: 2rem 0;
   border-radius: 20px;
-  height: 35vh;
+  height: 36vh;
 }
 
 .gallery{
